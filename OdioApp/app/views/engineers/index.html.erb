@@ -4,7 +4,7 @@
 <ul>
   <% @all_engineers.each do |engineer| %>
     <li>
-      <%= link_to(engineer.name, "/engineers/#{engineer.id}") %>
+      <%= link_to( engineer.name, "/engineers/#{engineer.id}" ) %>
     </li>
   <% end %>
 
