@@ -9,6 +9,14 @@
   </head>
 
   <body>
+
+    <nav>
+      <%= link_to("Home", "/") %>
+      <%= link_to("About", "/about") %>
+    </nav>
+
+    <hr>
     <%= yield %>
+    <hr>
   </body>
 </html>
